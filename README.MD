@@ -14,27 +14,24 @@ A simple 2D platformer game built with **Godot Engine**. This is a beginner-frie
 
 ---
 
-## 💻 How to Play (PC)
+## 📥 Download & Play
 
-### ▶️ Option 1: Run Source (Godot required)
+### 📥 Download the Game (PC)
+[![Download](https://img.shields.io/badge/Download-Jumper%20Game%20(PC)-blue?style=for-the-badge&logo=windows)](https://github.com/mrfiiqane/GamerGame2d/releases)
+
+1. Click the **Download** button above.
+2. Go to the latest release and download `Jumper Game.exe`.
+3. Run the file and enjoy!
+
+---
+
+## 💻 How to Run Source (Godot required)
 
 1. Download or clone this project
 2. Open **Godot Engine**
 3. Click **Import Project**
 4. Select `project.godot`
 5. Press **Play (F5)**
-
----
-
-### 📥 Option 2: Download PC Game (No Godot needed)
-
-1. Go to **GitHub Releases**
-2. Download the latest version
-3. Extract the file
-4. Run `Jumper Game.exe`
-
-👉 Download here:  
-https://github.com/mrfiiqane/GamerGame2d/releases
 
 ---
 
