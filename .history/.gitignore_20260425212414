@@ -2,10 +2,6 @@
 .godot/
 /android/
 
-*.exe
-*.zip
-build/
-exports/
 
 # Godot 4/3 specific
 .import/
