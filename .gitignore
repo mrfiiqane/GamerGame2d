@@ -30,3 +30,5 @@ obj/
 .DS_Store
 Thumbs.db
 *.log
+# Local history
+.history/
