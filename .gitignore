@@ -1,3 +1,39 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+
+# Godot 4/3 specific
+.import/
+.export/
+.export-debug/
+.export-release/
+.godot/
+
+# Build / export outputs
+build/
+exports/
+*.exe
+*.apk
+*.zip
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Cache files
+*.cache
+*.import
+
+# Godot editor metadata (optional but safe)
+.editor_settings-3.tres
+.editor_settings-4.tres
