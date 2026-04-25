@@ -1,0 +1,270 @@
+[gd_scene format=3 uid="uid://bkg85bmr4d1yw"]
+
+[ext_resource type="Texture2D" uid="uid://b6of3jsy11dd2" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/1.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://cm34tkjcpqmck" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="Texture2D" uid="uid://cnlq3jvc22mm" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/2.png" id="3_j2b1d"]
+[ext_resource type="Texture2D" uid="uid://cc4fyrig0luot" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/3.png" id="4_cs1tg"]
+[ext_resource type="Texture2D" uid="uid://bylk1cacloanc" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/4.png" id="5_2dvfe"]
+[ext_resource type="Texture2D" uid="uid://djrr54crba8wm" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/5.png" id="6_giy8y"]
+[ext_resource type="Texture2D" uid="uid://di782rfunjlq7" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/6.png" id="7_fdfoy"]
+[ext_resource type="Texture2D" uid="uid://uyo8dhjnhu0y" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/7.png" id="8_hhpqf"]
+[ext_resource type="Texture2D" uid="uid://c0gd4js6jpbe3" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/8.png" id="9_g5jhy"]
+[ext_resource type="Texture2D" uid="uid://oftfuke75sb1" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/9.png" id="10_holxr"]
+[ext_resource type="Texture2D" uid="uid://ha262p53pxx3" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/10.png" id="11_mx1m4"]
+[ext_resource type="Texture2D" uid="uid://bqdrpofpqpf38" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/11.png" id="12_4gjji"]
+[ext_resource type="Texture2D" uid="uid://dyslakuqn6uoh" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/12.png" id="13_u2ulf"]
+[ext_resource type="Texture2D" uid="uid://bm7qjudqxjm3x" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/13.png" id="14_6e8lb"]
+[ext_resource type="Texture2D" uid="uid://88o6qnrucyba" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/14.png" id="15_2gdjj"]
+[ext_resource type="Texture2D" uid="uid://bqfbaysw16yb0" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/15.png" id="16_sc3ue"]
+[ext_resource type="Texture2D" uid="uid://mkxpv0v1tdpq" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/16.png" id="17_lxlsd"]
+[ext_resource type="Texture2D" uid="uid://bvkh0kmiya81h" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/17.png" id="18_ha2mi"]
+[ext_resource type="Texture2D" uid="uid://fufdkfaix731" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/18.png" id="19_apa73"]
+[ext_resource type="Texture2D" uid="uid://c5ricklmfx7o6" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/19.png" id="20_74r1k"]
+[ext_resource type="Texture2D" uid="uid://bnxqmryd6l5k" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/20.png" id="21_8svfe"]
+[ext_resource type="Texture2D" uid="uid://53616ojh15rk" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/21.png" id="22_2a3c5"]
+[ext_resource type="Texture2D" uid="uid://dmivtbm1qv3e8" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/22.png" id="23_42b1b"]
+[ext_resource type="Texture2D" uid="uid://bjpb1ig4hlsns" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/23.png" id="24_h7ic4"]
+[ext_resource type="Texture2D" uid="uid://b6mj1fmb6mfdm" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/24.png" id="25_au7lq"]
+[ext_resource type="Texture2D" uid="uid://cbewxf3deic5d" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/25.png" id="26_nubpm"]
+[ext_resource type="Texture2D" uid="uid://cgvy1ahwo5kvy" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/26.png" id="27_ua5cf"]
+[ext_resource type="Texture2D" uid="uid://dr4rnf3rd2vyx" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/27.png" id="28_51ujp"]
+[ext_resource type="Texture2D" uid="uid://cbtomr5tbj6ph" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/28.png" id="29_tk41t"]
+[ext_resource type="Texture2D" uid="uid://cs22gemebd7ra" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/29.png" id="30_fuw3a"]
+[ext_resource type="Texture2D" uid="uid://q2erpxssiv8y" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/30.png" id="31_8txt3"]
+[ext_resource type="Texture2D" uid="uid://daxitibg2f1v" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/31.png" id="32_2w11d"]
+[ext_resource type="Texture2D" uid="uid://cpuudvj8nneaj" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/32.png" id="33_770dr"]
+[ext_resource type="Texture2D" uid="uid://01ega4weogri" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/33.png" id="34_8f1cb"]
+[ext_resource type="Texture2D" uid="uid://unrhhc7dda3n" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/34.png" id="35_vdulj"]
+[ext_resource type="Texture2D" uid="uid://bghlqbjpfdk51" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/35.png" id="36_vau08"]
+[ext_resource type="Texture2D" uid="uid://6gq8hsro3h7l" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/36.png" id="37_qsb7e"]
+[ext_resource type="Texture2D" uid="uid://dospyl8bgm3fr" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/37.png" id="38_qjsmb"]
+[ext_resource type="Texture2D" uid="uid://bh7pf3njkme72" path="res://Assets/Main Characters/4-Enemy-Big Guy/1-Idle/38.png" id="39_mwp2n"]
+[ext_resource type="Texture2D" uid="uid://bxepaejb0bbtl" path="res://Assets/Main Characters/4-Enemy-Big Guy/4-Jump/1.png" id="40_42b1b"]
+[ext_resource type="Texture2D" uid="uid://dlws77munaf6" path="res://Assets/Main Characters/4-Enemy-Big Guy/4-Jump/2.png" id="41_h7ic4"]
+[ext_resource type="Texture2D" uid="uid://ldlp2nv3tebj" path="res://Assets/Main Characters/4-Enemy-Big Guy/4-Jump/3.png" id="42_au7lq"]
+[ext_resource type="Texture2D" uid="uid://tds57v1jjtsu" path="res://Assets/Main Characters/4-Enemy-Big Guy/4-Jump/4.png" id="43_nubpm"]
+[ext_resource type="Texture2D" uid="uid://bpegpj3q1w7k5" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/1.png" id="44_ua5cf"]
+[ext_resource type="Texture2D" uid="uid://cq5yr068c0yj1" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/2.png" id="45_51ujp"]
+[ext_resource type="Texture2D" uid="uid://dgnw2koaoy84x" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/3.png" id="46_tk41t"]
+[ext_resource type="Texture2D" uid="uid://dyilanqx3ew3j" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/4.png" id="47_fuw3a"]
+[ext_resource type="Texture2D" uid="uid://c5i7jnj8fruv" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/5.png" id="48_8txt3"]
+[ext_resource type="Texture2D" uid="uid://bfg4ttmk06qkq" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/6.png" id="49_2w11d"]
+[ext_resource type="Texture2D" uid="uid://dhbina71r358n" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/7.png" id="50_770dr"]
+[ext_resource type="Texture2D" uid="uid://cuepx4se4153b" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/8.png" id="51_8f1cb"]
+[ext_resource type="Texture2D" uid="uid://diuu8dgs2rb20" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/9.png" id="52_vdulj"]
+[ext_resource type="Texture2D" uid="uid://bty020cbqxboy" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/10.png" id="53_vau08"]
+[ext_resource type="Texture2D" uid="uid://c7ekuxpk0tkis" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/11.png" id="54_qsb7e"]
+[ext_resource type="Texture2D" uid="uid://b0nvfryto32pn" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/12.png" id="55_qjsmb"]
+[ext_resource type="Texture2D" uid="uid://carhmbpipjuqy" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/13.png" id="56_mwp2n"]
+[ext_resource type="Texture2D" uid="uid://byt4qrm4q5ywv" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/14.png" id="57_0yhus"]
+[ext_resource type="Texture2D" uid="uid://brul1akimcyf1" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/15.png" id="58_jlll7"]
+[ext_resource type="Texture2D" uid="uid://bbmrmrcwgjqeg" path="res://Assets/Main Characters/4-Enemy-Big Guy/2-Run/16.png" id="59_qk6i7"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g2els"]
+radius = 35.0
+height = 94.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0yhus"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_3vyb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_j2b1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_cs1tg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_2dvfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_giy8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fdfoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_hhpqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_g5jhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_holxr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_mx1m4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4gjji")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_u2ulf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_6e8lb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_2gdjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_sc3ue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_lxlsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ha2mi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_apa73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_74r1k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_8svfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_2a3c5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_42b1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_h7ic4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_au7lq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_nubpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ua5cf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_51ujp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_tk41t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_fuw3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_8txt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_2w11d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_770dr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_8f1cb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_vdulj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_vau08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_qsb7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_qjsmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_mwp2n")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("40_42b1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_h7ic4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_au7lq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_nubpm")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("44_ua5cf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_51ujp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_tk41t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_fuw3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_8txt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_2w11d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_770dr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_8f1cb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_vdulj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_vau08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_qsb7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_qjsmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_mwp2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_0yhus")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_jlll7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_qk6i7")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}]
+
+[node name="player" type="CharacterBody2D" unique_id=176762054]
+script = ExtResource("1_g2els")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=44888640]
+position = Vector2(534, 238)
+shape = SubResource("CapsuleShape2D_g2els")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CollisionShape2D" unique_id=1408604045]
+position = Vector2(7.0000114, -9)
+scale = Vector2(1.2694808, 1.3783784)
+sprite_frames = SubResource("SpriteFrames_0yhus")
+animation = &"idle"

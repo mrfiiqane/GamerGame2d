@@ -1,0 +1,247 @@
+[gd_scene format=3 uid="uid://c5ktugtn8t4rb"]
+
+[ext_resource type="Texture2D" uid="uid://brape66ratbds" path="res://Assets/Background/Green.png" id="1_alqfr"]
+[ext_resource type="Texture2D" uid="uid://b3dkxv5elne57" path="res://Assets/Terrain/Terrain (16x16).png" id="2_yqkch"]
+[ext_resource type="PackedScene" uid="uid://bkg85bmr4d1yw" path="res://scenes/player.tscn" id="3_6ep0u"]
+[ext_resource type="PackedScene" uid="uid://d8co467jy5qu" path="res://scenes/collections.tscn" id="4_hrcei"]
+[ext_resource type="PackedScene" uid="uid://yifb4dl1mj1t" path="res://scenes/finish.tscn" id="5_xa7n4"]
+[ext_resource type="PackedScene" uid="uid://e8dpvnqkqowp" path="res://scenes/main.tscn" id="6_yqkch"]
+[ext_resource type="Script" uid="uid://va6berlrp2w1" path="res://scripts/game_manager.gd" id="7_6ep0u"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hrcei"]
+texture = ExtResource("2_yqkch")
+3:0/0 = 0
+4:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+17:0/0 = 0
+18:0/0 = 0
+19:0/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+17:1/0 = 0
+18:1/0 = 0
+19:1/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+17:2/0 = 0
+18:2/0 = 0
+19:2/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+20:4/0 = 0
+21:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+20:5/0 = 0
+21:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+15:8/0 = 0
+17:8/0 = 0
+18:8/0 = 0
+19:8/0 = 0
+20:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+14:9/0 = 0
+15:9/0 = 0
+17:9/0 = 0
+18:9/0 = 0
+19:9/0 = 0
+20:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+8:10/0 = 0
+13:10/0 = 0
+14:10/0 = 0
+15:10/0 = 0
+18:10/0 = 0
+19:10/0 = 0
+20:10/0 = 0
+0:0/size_in_atlas = Vector2i(3, 3)
+0:0/0 = 0
+6:0/size_in_atlas = Vector2i(3, 2)
+6:0/0 = 0
+6:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:2/size_in_atlas = Vector2i(3, 1)
+6:2/0 = 0
+6:2/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+12:0/size_in_atlas = Vector2i(4, 1)
+12:0/0 = 0
+12:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+
+[sub_resource type="TileSet" id="TileSet_iywne"]
+physics_layer_0/collision_layer = 1
+physics_layer_1/collision_layer = 1
+physics_layer_2/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_hrcei")
+
+[node name="SceneObjects" type="Node" unique_id=1442329953]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1656877825]
+texture_filter = 1
+offset_top = -9.0
+offset_right = 2760.0
+offset_bottom = 645.0
+size_flags_horizontal = 8
+texture = ExtResource("1_alqfr")
+expand_mode = 2
+stretch_mode = 1
+flip_h = true
+flip_v = true
+
+[node name="TileMap" type="TileMap" parent="." unique_id=2101896323]
+texture_filter = 1
+position = Vector2(-2, 223)
+scale = Vector2(2, 2)
+tile_set = SubResource("TileSet_iywne")
+format = 2
+layer_0/modulate = Color(0.851769, 0.8517689, 0.85176885, 1)
+layer_0/tile_data = PackedInt32Array(786433, 393216, 0, 786437, 393216, 0, 786440, 393216, 0, 786450, 393216, 0, 786442, 393216, 0, 786435, 393216, 0, 786454, 393216, 0, 786453, 393216, 0, 786457, 393216, 0, 786460, 393216, 0, 786463, 393216, 0, 786466, 393216, 0, 65549, 393216, 0, 196624, 393216, 0, 262175, 393216, 0, 327713, 393216, 0, 327683, 393216, 0, 393216, 393216, 2, 458752, 393216, 2, 524288, 393216, 2, 589824, 393216, 2, 655360, 393216, 2, 720896, 393216, 2, 393217, 393216, 2, 655361, 393216, 2, 720897, 393216, 2, 393218, 393216, 2, 655362, 393216, 0, 720898, 393216, 2, 524310, 393216, 0, 524313, 393216, 0, 25, 393216, 0, -524284, 393216, 2, -524283, 393216, 2, -524282, 393216, 2, -524281, 393216, 2, -524280, 393216, 2, -524279, 393216, 2, -524278, 393216, 2, -524277, 393216, 2, -524276, 393216, 2, -524275, 393216, 2, -524274, 393216, 2, -524273, 393216, 2, -524272, 393216, 2, -524271, 393216, 2, -524270, 393216, 2, -524269, 393216, 2, -524268, 393216, 2, -524267, 393216, 2, -524266, 393216, 2, -524265, 393216, 2, -524264, 393216, 2, -524263, 393216, 2, -524262, 393216, 2, -524261, 393216, 2, -524260, 393216, 2, -524259, 393216, 2, -524258, 393216, 2, -524257, 393216, 2, -524256, 393216, 2, -524255, 393216, 2, -524254, 393216, 2, -524253, 393216, 2, -196575, 393216, 0, 720930, 393216, 0, 327680, 393216, 0, 786432, 393216, 2, 851968, 393216, 2, 851969, 393216, 2, 851970, 393216, 2, 851971, 393216, 2, 851972, 393216, 2, 851973, 393216, 2, 851974, 393216, 2, 851975, 393216, 2, 851976, 393216, 2, 851977, 393216, 2, 851978, 393216, 2, 851984, 393216, 2, 851985, 393216, 2, 851986, 393216, 2, 851987, 393216, 2, 851988, 393216, 2, 851989, 393216, 2, 851990, 393216, 2, 851991, 393216, 0, 851992, 393216, 0, 851993, 393216, 0, 851994, 393216, 0, 851995, 393216, 0, 851996, 393216, 0, 851997, 393216, 0, 851998, 393216, 0, 851999, 393216, 0, 852000, 393216, 0, 852001, 393216, 0, 852002, 393216, 0, 852003, 393216, 0, 852004, 393216, 0, 852005, 393216, 0, 852007, 393216, 2, 852008, 393216, 2, 852009, 393216, 2, 852010, 393216, 2, -655317, 393216, 2, -589781, 393216, 0, -655316, 393216, 2, -589780, 393216, 0, -655315, 393216, 2, -589779, 393216, 0, -655314, 393216, 2, -589778, 393216, 0, 786469, 393216, 0, 786472, 393216, 0, 786475, 393216, 0, 786484, 393216, 0, 786487, 393216, 0, 786490, 393216, 0, 786496, 393216, 0, 786499, 393216, 0, 786502, 393216, 0, 786504, 393216, 0, 786507, 393216, 0, 786510, 393216, 0, 786513, 393216, 0, 786516, 393216, 0, -589777, 393216, 0, -589776, 393216, 0, -589772, 393216, 0, -589774, 393216, 0, -589770, 393216, 0, -589767, 393216, 0, -589763, 393216, 0, -589765, 393216, 0, -589758, 393216, 0, -589756, 393216, 0, -589753, 393216, 0, -589751, 393216, 0, -589748, 393216, 0, -589745, 393216, 0, -589743, 393216, 0, -589740, 393216, 0, -589737, 393216, 2, -524201, 393216, 2, -458665, 393216, 2, -393129, 393216, 2, -327593, 393216, 2, -262057, 393216, 2, -196521, 393216, 2, -130985, 393216, 2, -65449, 393216, 2, 131159, 393216, 2, 196695, 393216, 2, 262231, 393216, 2, 327767, 393216, 2, 393303, 393216, 2, 458839, 393216, 2, 524375, 393216, 2, 589911, 393216, 2, 655447, 393216, 2, 720983, 393216, 2, 786519, 393216, 2, 852055, 393216, 2, 524328, 393216, 0, 327725, 393216, 0, 131122, 393216, 0, 39, 393216, 0, 327763, 393216, 0, 458825, 393216, 0, 655424, 393216, 0, 655412, 393216, 0, 458827, 393216, 0, 196668, 393216, 0, -262089, 393216, 0, -262100, 786432, 0, 70, 786432, 0, 393299, 786432, 0, 393301, 786432, 0, -262061, 786432, 0, 327685, 0, 0, -196525, 0, 0, 327764, 0, 0, 720960, 0, 0, 786488, 393216, 0, 786485, 393216, 0, 786464, 393216, 0, 786465, 393216, 0, 786467, 393216, 0, 786468, 393216, 0, 786470, 393216, 0, 786471, 393216, 0, 786473, 393216, 0, 786474, 393216, 0, 786476, 393216, 0, 786461, 393216, 0, 786462, 393216, 0)
+
+[node name="player" parent="." unique_id=176762054 instance=ExtResource("3_6ep0u")]
+position = Vector2(180, 185)
+up_direction = Vector2(-0.54156095, -0.8406615)
+
+[node name="Camera2D" type="Camera2D" parent="player" unique_id=1202712175]
+position = Vector2(546, 167)
+zoom = Vector2(1.01, 1.01)
+limit_left = 0
+limit_top = 0
+limit_smoothed = true
+position_smoothing_enabled = true
+position_smoothing_speed = 7.0
+
+[node name="Collectable Group" type="Node" parent="." unique_id=382456762]
+
+[node name="Collections" parent="Collectable Group" unique_id=1694548735 instance=ExtResource("4_hrcei")]
+position = Vector2(64, 282)
+
+[node name="Collections2" parent="Collectable Group" unique_id=1784201307 instance=ExtResource("4_hrcei")]
+visible = false
+position = Vector2(75, 36)
+
+[node name="Collections3" parent="Collectable Group" unique_id=811477231 instance=ExtResource("4_hrcei")]
+position = Vector2(378, 153)
+
+[node name="Collections4" parent="Collectable Group" unique_id=365804271 instance=ExtResource("4_hrcei")]
+position = Vector2(779, 124)
+
+[node name="Collections5" parent="Collectable Group" unique_id=1622828397 instance=ExtResource("4_hrcei")]
+position = Vector2(989, 30)
+
+[node name="Collections6" parent="Collectable Group" unique_id=166992671 instance=ExtResource("4_hrcei")]
+position = Vector2(1040, 485)
+
+[node name="Collections7" parent="Collectable Group" unique_id=1342801380 instance=ExtResource("4_hrcei")]
+position = Vector2(1237, 384)
+
+[node name="Collections8" parent="Collectable Group" unique_id=359602561 instance=ExtResource("4_hrcei")]
+position = Vector2(1568, 196)
+
+[node name="Collections9" parent="Collectable Group" unique_id=173530738 instance=ExtResource("4_hrcei")]
+position = Vector2(2011, 455)
+
+[node name="Collections10" parent="Collectable Group" unique_id=1250469059 instance=ExtResource("4_hrcei")]
+position = Vector2(1869, 237)
+
+[node name="Collections11" parent="Collectable Group" unique_id=1062584616 instance=ExtResource("4_hrcei")]
+position = Vector2(2191, 143)
+
+[node name="Collections12" parent="Collectable Group" unique_id=1251538459 instance=ExtResource("4_hrcei")]
+position = Vector2(2603, 19)
+
+[node name="finish" parent="." unique_id=1511952411 instance=ExtResource("5_xa7n4")]
+position = Vector2(2629, 468)
+target_level = ExtResource("6_yqkch")
+
+[node name="game_manager" type="Node" parent="." unique_id=1107825378]
+unique_name_in_owner = true
+script = ExtResource("7_6ep0u")
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=442708154]
+
+[node name="Panel" type="Panel" parent="UI" unique_id=1571256084]
+offset_left = 72.0
+offset_top = 33.0
+offset_right = 338.0
+offset_bottom = 153.0
+size_flags_horizontal = 0
+
+[node name="Label" type="Label" parent="UI/Panel" unique_id=975107841]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "Scores: 0"
+horizontal_alignment = 1
+vertical_alignment = 1

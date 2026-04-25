@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://yifb4dl1mj1t"]
+
+[ext_resource type="Texture2D" uid="uid://b6ve7a5aaw4xw" path="res://Assets/Menu/Buttons/Leaderboard.png" id="1_5nbog"]
+[ext_resource type="Script" uid="uid://c1bl73k5tqgkg" path="res://scripts/finish.gd" id="1_07gpw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_07gpw"]
+size = Vector2(19.747314, 20.357666)
+
+[node name="finish" type="Area2D" unique_id=1511952411]
+script = ExtResource("1_07gpw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1411256383]
+position = Vector2(58.410717, 58.613644)
+scale = Vector2(6.6428556, 6.2272725)
+shape = SubResource("RectangleShape2D_07gpw")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2107662579]
+position = Vector2(59.25, 57.5)
+scale = Vector2(6.642857, 6.2272725)
+texture = ExtResource("1_5nbog")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

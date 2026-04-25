@@ -1,0 +1,83 @@
+[gd_scene format=3 uid="uid://e8dpvnqkqowp"]
+
+[ext_resource type="Texture2D" uid="uid://gk1ybqxpa83d" path="res://Assets/Background/Purple.png" id="1_0wfyh"]
+[ext_resource type="Script" uid="uid://cqsgqkrdal3u4" path="res://scripts/main.gd" id="1_sugp2"]
+[ext_resource type="Texture2D" uid="uid://d1v3c50l4xsa0" path="res://Assets/Images/Background.png" id="2_sugp2"]
+
+[node name="main" type="Node2D" unique_id=1870886037]
+position = Vector2(134, 64)
+script = ExtResource("1_sugp2")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1123044090]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -132.0
+offset_top = -64.0
+offset_right = 1023.0
+offset_bottom = 581.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 8
+texture = ExtResource("1_0wfyh")
+expand_mode = 2
+stretch_mode = 1
+flip_h = true
+flip_v = true
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=522438629]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -132.0
+offset_top = -64.0
+offset_right = 1023.0
+offset_bottom = 581.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 8
+texture = ExtResource("2_sugp2")
+expand_mode = 2
+stretch_mode = 1
+flip_h = true
+flip_v = true
+
+[node name="Play" type="Button" parent="." unique_id=2137605618]
+offset_left = 332.0
+offset_top = 1.0
+offset_right = 601.0
+offset_bottom = 136.0
+tooltip_text = "are you ready to play, lets go!."
+theme_override_colors/icon_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Play"
+icon_alignment = 1
+
+[node name="Settings" type="Button" parent="." unique_id=143030422]
+offset_left = 333.0
+offset_top = 175.0
+offset_right = 601.0
+offset_bottom = 315.38098
+tooltip_text = "choose settings options."
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "Settings"
+icon_alignment = 1
+
+[node name="Exit" type="Button" parent="." unique_id=1417479782]
+offset_left = 335.0
+offset_top = 347.0
+offset_right = 604.0
+offset_bottom = 479.0
+tooltip_text = "GoodBay Thanks."
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 50
+text = "Exit"
+icon_alignment = 1
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]

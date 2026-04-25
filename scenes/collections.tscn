@@ -1,0 +1,152 @@
+[gd_scene format=3 uid="uid://d8co467jy5qu"]
+
+[ext_resource type="Script" uid="uid://dt5rxlujv7ovl" path="res://scripts/collections.gd" id="1_hvge1"]
+[ext_resource type="Texture2D" uid="uid://dw34kuvssvum7" path="res://Assets/Items/Fruits/Apple.png" id="1_xi0t2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hvge1"]
+radius = 27.294687
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ek7dx"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aqlxc"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jvv0k"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n0rdm"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_abntw"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ppsym"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxfsh"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0x5nj"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kxtot"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(256, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q1ne7"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(288, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_03hsv"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(320, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8y54x"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(352, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gmcut"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(384, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rdvru"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(416, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1qk7f"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(448, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mx6ix"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(480, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wc8c8"]
+atlas = ExtResource("1_xi0t2")
+region = Rect2(512, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_x6p3a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ek7dx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aqlxc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jvv0k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n0rdm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_abntw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ppsym")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cxfsh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0x5nj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kxtot")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q1ne7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_03hsv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8y54x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gmcut")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rdvru")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1qk7f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mx6ix")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wc8c8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="Collections" type="Area2D" unique_id=1694548735]
+script = ExtResource("1_hvge1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1437539997]
+position = Vector2(61, 58)
+shape = SubResource("CircleShape2D_hvge1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=424727364]
+texture_filter = 1
+position = Vector2(61.093746, 61.437492)
+scale = Vector2(3.4316401, 3.597656)
+sprite_frames = SubResource("SpriteFrames_x6p3a")
+autoplay = "default"
+frame = 15
+frame_progress = 0.69947225
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
